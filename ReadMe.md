@@ -1,2 +1,1 @@
-#Weather App
-## Built for an assignment
+## Weather App
