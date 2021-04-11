@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="app-container shadow-lg">
+        <h1 class="table-head">Weather Forcast App</h1>
+        <form id="form">
+            <div class="max-w-sm">
+                <input id="location" class="form-control" type="text" placeholder="Enter city...">
+                <button type="submit" class="btn btn-primary">Submit Query</button>
+            </div>
+        </form>
+
+        <div class="result">
+            <span class="result-text" id="city"></span>
+            <span> : </span>
+            <span class="result-text" id="weather-condition"></span>
+
+            <br>
+            <span class="result-text">Temperature: </span>
+            <span class="result-text" id="temp">-</span>
+            <span class="result-text">°F</span>
+
+            <br>
+            <span class="result-text">Coord: </span>
+            <span class="result-text" id="coord">33.00 - 22.77</span>
+        </div>
+
+    </div>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

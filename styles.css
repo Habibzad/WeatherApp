@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+  
+body{
+    display: flex;
+    justify-content: center;
+} 
+  
+.app-container{
+    margin-top: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+  }
+
+.table-head{
+    font-size: 24px;
+    color: rgb(100, 100, 100);
+    padding-bottom: 10px;
+  }
+
+.form-control{
+    margin-bottom: 10px;
+}
+
+.result{
+    margin: 15px 0;
+}
+
+.result-text{
+    font-size: 18px;
+    line-height: 200%;
+}
