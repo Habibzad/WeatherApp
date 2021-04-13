@@ -2,13 +2,12 @@
 const url = "https://api.openweathermap.org/data/2.5/weather?q=";
 const appid = "&APPID=8b91623958e04d8ba96414e6c74436b5";
 const unit = "&units=imperial";
-
+const cityOutput = document.querySelector("#city");
+const cityWeather = document.querySelector("#weather-condition");
+const temperature = document.querySelector("#temp");
+const coord = document.querySelector("#coord");
 // Variables
 let city;
-let cityOutput = document.querySelector("#city");
-let cityWeather = document.querySelector("#weather-condition");
-let temperature = document.querySelector("#temp");
-let coord = document.querySelector("#coord");
 
 $(document).ready(function () {
     $('form').submit(function () {
